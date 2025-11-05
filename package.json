@@ -39,6 +39,12 @@
     "./next-config"     : "./src/next.json",
     "./react-config"    : "./src/react.json"
   },
+
+  "publisher"         : {
+    "type" : "github",
+    "user" : "pooxlabs",
+    "repo" : "presets"
+  },
   "publishConfig"     : {
     "access"   : "public"
   },
