@@ -18,6 +18,12 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Latest - NPM
+        run: npm install -g npm@latest
+
+      - name: Authenticate - NPM
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
+
       - name: Authenticate - Github
         run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
 
