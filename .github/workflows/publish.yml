@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   publish:
-    name: Publish Package
+    name: Package
     runs-on: ubuntu-latest
 
     steps:
@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Latest - NPM
+      - name: Upgrade - NPM
         run: npm install -g npm@latest
 
       - name: Authenticate - NPM
