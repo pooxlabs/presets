@@ -18,9 +18,6 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Authenticate - NPM
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
-
       - name: Authenticate - Github
         run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> ~/.npmrc
 
