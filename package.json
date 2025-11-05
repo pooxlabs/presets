@@ -4,7 +4,7 @@
   "keywords"          : ["eslint","eslint-config","eslint-preset","typescript","react","nextjs","srylius","poox","code-style","linting","type-safe","shared-config","onboarding-friendly","scalable"],
   "license"           : "MIT",
   "homepage"          : "https://poox.io/",
-  "version"           : "0.0.3",
+  "version"           : "0.0.4",
 
   "author"            : {
     "name"      : "Selçuk Çukur",
@@ -40,7 +40,7 @@
     "./react-config"    : "./src/react.json"
   },
   "publishConfig"     : {
-    "access"  : "public"
+    "access"   : "public"
   },
   "repository"        : {
     "type"  : "git",
