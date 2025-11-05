@@ -1,0 +1,49 @@
+{
+  "name"              : "@poox/presets",
+  "description"       : "A centralized configuration layer for Poox projects—defining shared TypeScript, ESLint, and tooling presets to enforce consistency, reduce setup overhead, and accelerate contributor onboarding. Built for modularity, clarity, and teardown-safe development across monorepo environments.",
+  "keywords"          : ["eslint","eslint-config","eslint-preset","typescript","react","nextjs","srylius","poox","code-style","linting","type-safe","shared-config","onboarding-friendly","scalable"],
+  "license"           : "MIT",
+  "homepage"          : "https://poox.io/",
+  "version"           : "0.0.1",
+
+  "author"            : {
+    "name"      : "Selçuk Çukur",
+    "email"     : "hk@selcukcukur.com.tr",
+    "url"       : "https://selcukcukur.com.tr"
+  },
+
+  "bugs"              : {
+    "email"   : "security@poox.io",
+    "url"     : "https://github.com/poox/poox/issues"
+  },
+
+  "devDependencies"   : {
+    "@eslint/js"                : "^9.34.0",
+    "@next/eslint-plugin-next"  : "^15.5.0",
+    "eslint"                    : "^9.34.0",
+    "eslint-config-prettier"    : "^10.1.1",
+    "eslint-plugin-only-warn"   : "^1.1.0",
+    "eslint-plugin-react"       : "^7.37.5",
+    "eslint-plugin-react-hooks" : "^5.2.0",
+    "eslint-plugin-turbo"       : "^2.5.0",
+    "globals"                   : "^16.3.0",
+    "typescript"                : "^5.9.2",
+    "typescript-eslint"         : "^8.40.0"
+  },
+
+  "exports"           : {
+    "./base-eslint"     : "./src/base.js",
+    "./next-eslint"     : "./src/next.js",
+    "./react-eslint"    : "./src/react.js",
+    "./base-config"     : "./src/base.json",
+    "./next-config"     : "./src/next.json",
+    "./react-config"    : "./src/react.json"
+  },
+  "publishConfig"     : {
+    "access"  : "public"
+  },
+  "repository"        : {
+    "type"  : "git",
+    "url"   : "git+https://github.com/poox/presets.git"
+  }
+}
