@@ -4,7 +4,7 @@
   "keywords"          : ["eslint","eslint-config","eslint-preset","typescript","react","nextjs","srylius","poox","code-style","linting","type-safe","shared-config","onboarding-friendly","scalable"],
   "license"           : "MIT",
   "homepage"          : "https://poox.io/",
-  "version"           : "0.0.5",
+  "version"           : "0.0.6",
 
   "author"            : {
     "name"      : "Selçuk Çukur",
