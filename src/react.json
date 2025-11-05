@@ -1,6 +1,6 @@
 {
   "$schema"           : "https://json.schemastore.org/tsconfig",
-  "extends"           : "@poox/presets/base-config",
+  "extends"           : "@pooxlabs/presets/base-config",
   "compilerOptions"   : {
     "jsx": "react-jsx"
   }
