@@ -1,10 +1,10 @@
 {
-  "name"              : "@poox/presets",
+  "name"              : "@pooxlabs/presets",
   "description"       : "A centralized configuration layer for Poox projects—defining shared TypeScript, ESLint, and tooling presets to enforce consistency, reduce setup overhead, and accelerate contributor onboarding. Built for modularity, clarity, and teardown-safe development across monorepo environments.",
   "keywords"          : ["eslint","eslint-config","eslint-preset","typescript","react","nextjs","srylius","poox","code-style","linting","type-safe","shared-config","onboarding-friendly","scalable"],
   "license"           : "MIT",
   "homepage"          : "https://poox.io/",
-  "version"           : "0.0.1",
+  "version"           : "0.0.3",
 
   "author"            : {
     "name"      : "Selçuk Çukur",
