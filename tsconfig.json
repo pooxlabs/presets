@@ -1,9 +1,9 @@
 {
-  "extends"         : "@poox/presets/react-config",
+  "extends"         : "@pooxlabs/presets/react-config",
   "compilerOptions" : {
     "baseUrl"   : ".",
     "paths"     : {
-      "@poox/presets" : ["src"]
+      "@pooxlabs/presets" : ["src"]
     }
   },
   "include"         : ["."],
