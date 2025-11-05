@@ -4,6 +4,10 @@ on:
     tags:
       - 'v*.*.*' # Trigger only on version tags like v1.0.0
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   publish:
     name: Publish Package
